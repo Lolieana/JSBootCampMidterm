@@ -1,8 +1,6 @@
 /* eslint-disable no-undef */
 const { expect } = require('chai');
-const {
-  expo,
-} = require('./expo');
+const { expo } = require('./expo');
 
 describe('expo', () => {
   it('is a function', () => {

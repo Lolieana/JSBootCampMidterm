@@ -1,10 +1,8 @@
 /* eslint-disable no-undef */
 const { expect } = require('chai');
-const {
-  swapCase,
-} = require('./swapCase');
+const { swapCase } = require('./swapCase');
 
-describe.only('swapCase', () => {
+describe('swapCase', () => {
   it('is a function', () => {
     expect(typeof swapCase).to.equal('function');
   });
@@ -18,7 +16,9 @@ describe.only('swapCase', () => {
     const returnedValue = swapCase('what does the fox say');
     expect(returnedValue).to.equal('WHAT DOES THE FOX SAY');
 
-    expect(swapCase('WHAT DOES THE FOX SAY')).to.equal('what does the fox say');
+    expect(swapCase('WHAT DOES THE FOX SAY')).to.equal(
+      'what does the fox say'
+    );
   });
 
   it('returns a string with all of the cases swapped if the cases are not predictable', () => {

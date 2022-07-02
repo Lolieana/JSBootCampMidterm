@@ -1,8 +1,6 @@
 /* eslint-disable no-undef */
 const { expect } = require('chai');
-const {
-  roundToNext5,
-} = require('./roundToNext5');
+const { roundToNext5 } = require('./roundToNext5');
 
 describe('roundToNext5', () => {
   it('is a function', () => {
