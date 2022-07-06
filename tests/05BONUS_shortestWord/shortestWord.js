@@ -1,5 +1,6 @@
+// Looks good. Great job!
 function findShortestWord(str) {
-  let word = str.split(' ');
+  const word = str.split(' ');
   let shortLength = word[0].length;
   let shortWord = word[0];
   for (let i = 0; i < word.length; i++) {
