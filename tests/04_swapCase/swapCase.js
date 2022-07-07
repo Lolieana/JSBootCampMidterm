@@ -1,6 +1,7 @@
+// looks good!!
 function swapCase(str) {
   let returnStr = '';
-  let splitStr = str.split('');
+  const splitStr = str.split('');
   for (let i = 0; i < splitStr.length; i++) {
     if (splitStr[i] === splitStr[i].toLowerCase()) {
       returnStr += splitStr[i].toUpperCase();
